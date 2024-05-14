@@ -1,0 +1,41 @@
+:root {
+  --eggshell: #f4f1de;
+  --primary-text: #3d405b;
+  --burnt-sienna: #e07a5f;
+  --cambridge-blue: #81b29a;
+  --sunset-orange: #f2cc8f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", serif;
+}
+
+body {
+  display: grid;
+  background-color: gray;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.hero-image {
+  background-image: url(/assets/hero-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.primary-nav {
+  display: inline;
+  color: #f1faee;
+  font-size: 1em;
+  font-weight: 400;
+}
